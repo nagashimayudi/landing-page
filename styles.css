@@ -1,0 +1,165 @@
+body {
+    margin: 0px;
+    font-family: Roboto;
+    color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner .title button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border-width: 0;
+    max-width: 140px;
+}
+
+.banner .title button:hover {
+    background-color: #306bc9;
+    cursor: pointer;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    padding: 16px 400px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.title {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 16px;
+}
+
+.right-elements {
+    display: flex;
+    gap: 24px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 8px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 80px 400px;
+    gap: 24px;
+}
+
+.banner .title {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-banner {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 400px;
+    gap: 48px;
+    align-items: center;
+}
+
+.info {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+    text-justify: auto;
+}
+
+.card-group {
+    display: flex;
+    gap: 24px;
+}
+
+.quote-banner {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: end;
+    background-color: #E5E7EB;
+    padding: 72px 400px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.cta-banner {
+    display: flex;
+    margin: 48px 400px;
+    padding: 40px 80px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-banner .title .hero {
+    color: #E5E7EB;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.cta-banner .title {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-banner button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E5E7EB;
+    padding: 4px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    max-height: 36px;   
+}
+
+.cta-banner button:hover {
+    background-color: #E5E7EB;
+    color: #3882f6;
+    cursor: pointer;
+}
